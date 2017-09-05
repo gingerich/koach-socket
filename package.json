@@ -1,0 +1,25 @@
+{
+  "name": "koach-socket",
+  "version": "0.0.0",
+  "description": "Socket.io module for koach",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "sockets",
+    "io",
+    "koach",
+    "module"
+  ],
+  "author": "Marlin Gingerich <marlin.gingerich@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koach": "^0.0.2",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "jest": "^21.0.1"
+  }
+}
